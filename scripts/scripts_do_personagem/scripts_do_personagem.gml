@@ -1,5 +1,3 @@
-// Os recursos de script mudaram para a v2.3.0; veja
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function scr_personagem_andando(){
 	//MOVIMENTACAO
 
@@ -32,9 +30,9 @@ function scr_personagem_andando(){
 	
 		vveloc = 0;
 	}
+	
 
-
-	//calculando a direção
+	//CALCULANDO A DIRECAO
 	if (hveloc != 0 or vveloc != 0) {
 		direcao = point_direction(0, 0, hveloc, vveloc);
 		moveX = lengthdir_x(veloc, direcao);

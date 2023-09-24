@@ -1,6 +1,77 @@
-// Os recursos de script mudaram para a v2.3.0; veja
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
+//programando uma State Machine
+function scr_cachorro_escolher_estado(){
+	prox_estado = choose(scr_cachorro_andando, scr_cachorro_parado, scr_cachorro_sentado);
+	
+	if prox_estado == scr_cachorro_andando{
+		estado = scr_cachorro_andando;
+		
+		//movimentação e direção na sala
+		dest_x = irandom_range(0, room_width);
+		dest_y = irandom_range(0, room_height);
+
+	}else if prox_estado == scr_cachorro_parado{
+		estado = scr_cachorro_parado;
+		
+	}else if prox_estado == scr_cachorro_sentado{
+		estado = scr_cachorro_sentado;
+	}
+}
+
 function scr_cachorro_andando(){
+	direcao = point_direction(x, y, dest_x, dest_y);
+	
+	hveloc = lengthdir_x(veloc, direcao);
+	vveloc = lengthdir_y(veloc, direcao);
+	
+	x += hveloc;
+	y += vveloc;
+	
+	//mudando sprite p movimentação
+		switch(direcao){
+			case 0:
+				sprite_index = spr_cachorro_andando_direita;
+			break;
+			case 90:
+				sprite_index = spr_cachorro_andando_direita;
+			break;
+			case 180:
+				sprite_index = spr_cachorro_andando_esquerda;
+			break;
+			case 270:
+				sprite_index = spr_cachorro_andando_esquerda;
+			break;
+			default:
+			break;
+		}
+}
+
+function scr_cachorro_parado(){
+	switch(direcao){
+			case 0:
+				sprite_index = spr_cachorro_parado_direita;
+			break;
+			case 90:
+				sprite_index = spr_cachorro_parado_direita;
+			break;
+			case 180:
+				sprite_index = spr_cachorro_parado_esquerda;
+			break;
+			case 270:
+				sprite_index = spr_cachorro_parado_esquerda;
+			break;
+			default:
+			break;
+		}
+}
+
+function scr_cachorro_sentado(){
+	sprite_index = spr_cachorro_sentando;
+	sprite_index = spr_cachorro_sentado;
+	
+	//inserir audio cachorro arfando
+}
+
+/*function scr_cachorro_andando(){
 	//movimentação
 	direita = keyboard_check(vk_right);
 	cima = keyboard_check(vk_up);
@@ -51,40 +122,53 @@ function scr_cachorro_andando(){
 				sprite_index = spr_cachorro_andando_direita;
 			break;
 			case 90:
-			
+				sprite_index = spr_cachorro_andando_direita;
 			break;
 			case 180:
 				sprite_index = spr_cachorro_andando_esquerda;
 			break;
 			case 270:
-			
+				sprite_index = spr_cachorro_andando_esquerda;
 			break;
 			default:
 			break;
 		}
-	}else{	
-		parado = true;
-		
+	}else{		
 		//mudando sprite p parado
 		switch(direcao){
 			case 0:
 				sprite_index = spr_cachorro_parado_direita;
 			break;
 			case 90:
-			
+				sprite_index = spr_cachorro_parado_direita;
 			break;
 			case 180:
 				sprite_index = spr_cachorro_parado_esquerda;
 			break;
 			case 270:
-			
+				sprite_index = spr_cachorro_parado_esquerda;
 			break;
 			default:
 			break;
 		}
+		
+		
+		parado = true;
+			
+		if (parado == true){
+			sentar -= 1;
+			if(sentar <= 0) {
+				estado = scr_cachorro_sentado;
+				alarm[0] = 4*60;
+			}
+		}
+		
 	}
 }
 
 function scr_cachorro_sentado(){
+	sprite_index = spr_cachorro_sentando;
+	sprite_index = spr_cachorro_sentado;
 	
-}
+	//inserir audio cachorro arfando
+}*/

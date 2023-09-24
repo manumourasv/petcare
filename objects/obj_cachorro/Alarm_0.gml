@@ -1,11 +1,9 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
+/// @description Andar
 
+sentar = 240;
 
+estado = scr_cachorro_andando;
 
-if (parado == true){
-	alarm[0] = 30;
-}
 
 
 
