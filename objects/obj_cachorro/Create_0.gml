@@ -1,8 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+randomize();
+
 //variaveis para estado
-estado = -1;
+estado = scr_cachorro_escolher_estado;
 prox_estado = 0;
 
 //variaveis para velocidade
@@ -15,6 +17,12 @@ dest_x = 0;		//direcao p onde o cachorro quer ir
 dest_y = 0;
 
 direcao = 270;
+
+alarm[0] = 1;
+
+
+
+
 
 /*
 //variaveis para controlar movimentacao

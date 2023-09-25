@@ -1,8 +1,7 @@
-/// @description Andar
+/// @description Escolher estado
 
-sentar = 240;
-
-estado = scr_cachorro_andando;
+estado = scr_cachorro_escolher_estado;
+alarm[0] = irandom_range(120, 240);
 
 
 
