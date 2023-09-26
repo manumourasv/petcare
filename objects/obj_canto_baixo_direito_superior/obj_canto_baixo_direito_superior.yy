@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_canto_superior_direito_superior",
+  "name": "obj_canto_baixo_direito_superior",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_canto_superior_direito_superior",
-    "path": "sprites/spr_canto_superior_direito_superior/spr_canto_superior_direito_superior.yy",
+    "name": "spr_canto_baixo_direito",
+    "path": "sprites/spr_canto_baixo_direito/spr_canto_baixo_direito.yy",
   },
   "spriteMaskId": null,
   "visible": true,

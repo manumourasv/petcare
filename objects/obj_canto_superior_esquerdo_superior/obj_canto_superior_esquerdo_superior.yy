@@ -9,7 +9,10 @@
     "name": "obj_superiores",
     "path": "folders/Objetos/obj_superiores.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_superior_profundidade",
+    "path": "objects/obj_superior_profundidade/obj_superior_profundidade.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

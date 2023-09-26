@@ -32,7 +32,7 @@ function scr_cachorro_checar_personagem(){
 function scr_cachorro_escolher_estado(){
 	scr_cachorro_checar_personagem();
 	
-	prox_estado = choose(scr_cachorro_andando, scr_cachorro_parado, scr_cachorro_sentado);
+	prox_estado = choose(scr_cachorro_andando, scr_cachorro_parado);
 	
 	if prox_estado == scr_cachorro_andando{
 		sentado = false;
@@ -67,6 +67,12 @@ function scr_cachorro_andando(){
 			y = dest_y;
 		}
 		
+		if(dest_x < x) {
+			sprite_index = spr_cachorro_andando_esquerda;
+		}else{
+			sprite_index = spr_cachorro_andando_direita;
+		}
+		
 			/*if (hveloc != 0 or vveloc != 0) {
 				if(dest_x < x) {
 					sprite_index = spr_cachorro_andando_esquerda;
@@ -92,6 +98,12 @@ function scr_cachorro_parado(){
 	scr_cachorro_checar_personagem();
 	
 	sprite_index = spr_cachorro_parado_esquerda;
+	
+	if(dest_x < x) {
+		sprite_index = spr_cachorro_parado_esquerda;
+	}else{
+		sprite_index = spr_cachorro_parado_direita;
+	}
 	
 	/*
 	if(sentado == false){

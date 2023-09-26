@@ -1,18 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_canto_superior_direito_superior",
-  "eventList": [],
+  "name": "obj_superior_profundidade",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "obj_superiores",
     "path": "folders/Objetos/obj_superiores.yy",
   },
-  "parentObjectId": {
-    "name": "obj_superior_profundidade",
-    "path": "objects/obj_superior_profundidade/obj_superior_profundidade.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_canto_superior_direito_superior",
-    "path": "sprites/spr_canto_superior_direito_superior/spr_canto_superior_direito_superior.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
