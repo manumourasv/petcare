@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_colisao",
+    "path": "sprites/spr_colisao/spr_colisao.yy",
+  },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

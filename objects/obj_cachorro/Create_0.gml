@@ -15,11 +15,9 @@ veloc = 1.5;
 
 dest_x = 0;		//direcao p onde o cachorro quer ir
 dest_y = 0;
-direcao = 270;
+
 
 alarm[0] = 1;
-
-sentado = false;
 
 dist_aggro = 50;
 dist_desaggro = 100;

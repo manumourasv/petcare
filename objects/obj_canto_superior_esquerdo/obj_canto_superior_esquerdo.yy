@@ -6,13 +6,10 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_cantos",
-    "path": "folders/Objetos/obj_cantos.yy",
+    "name": "obj_paredes",
+    "path": "folders/Objetos/obj_paredes.yy",
   },
-  "parentObjectId": {
-    "name": "obj_colisao",
-    "path": "objects/obj_colisao/obj_colisao.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

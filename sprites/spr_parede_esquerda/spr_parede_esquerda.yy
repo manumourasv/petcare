@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 2,
   "parent": {
-    "name": "spr_cantos",
-    "path": "folders/Sprites/spr_cantos.yy",
+    "name": "spr_paredes",
+    "path": "folders/Sprites/spr_paredes.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

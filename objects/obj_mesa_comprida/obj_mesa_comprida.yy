@@ -11,10 +11,7 @@
     "name": "obj_moveis",
     "path": "folders/Objetos/obj_moveis.yy",
   },
-  "parentObjectId": {
-    "name": "obj_colisao",
-    "path": "objects/obj_colisao/obj_colisao.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
