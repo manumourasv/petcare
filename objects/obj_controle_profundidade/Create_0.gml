@@ -1,7 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-//depth = -y;
+global.grid_profundidade = ds_grid_create(2, 0);
+
+
 
 
 

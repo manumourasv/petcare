@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_canto_baixo_direito",
+  "name": "par_objetos",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_paredes",
-    "path": "folders/Objetos/obj_paredes.yy",
+    "name": "obj_controladores",
+    "path": "folders/Objetos/obj_controladores.yy",
   },
-  "parentObjectId": {
-    "name": "par_objetos",
-    "path": "objects/par_objetos/par_objetos.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,11 +26,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
-  "spriteId": {
-    "name": "spr_canto_baixo_direito",
-    "path": "sprites/spr_canto_baixo_direito/spr_canto_baixo_direito.yy",
-  },
+  "solid": false,
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

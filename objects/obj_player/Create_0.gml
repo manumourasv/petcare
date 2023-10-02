@@ -1,4 +1,6 @@
 /// @description Inserir descrição aqui
+event_inherited();
+
 
 //variaveis para controlar movimentacao
 direita = -1;

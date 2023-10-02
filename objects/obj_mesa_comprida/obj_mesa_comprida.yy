@@ -4,6 +4,7 @@
   "name": "obj_mesa_comprida",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -11,7 +12,10 @@
     "name": "obj_moveis",
     "path": "folders/Objetos/obj_moveis.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_objetos",
+    "path": "objects/par_objetos/par_objetos.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

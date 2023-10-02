@@ -15,7 +15,10 @@
     "name": "obj_personagens",
     "path": "folders/Objetos/obj_personagens.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_objetos",
+    "path": "objects/par_objetos/par_objetos.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

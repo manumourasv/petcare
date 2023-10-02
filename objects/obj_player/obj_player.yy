@@ -14,8 +14,8 @@
     "path": "folders/Objetos/obj_personagens.yy",
   },
   "parentObjectId": {
-    "name": "obj_colisao",
-    "path": "objects/obj_colisao/obj_colisao.yy",
+    "name": "par_objetos",
+    "path": "objects/par_objetos/par_objetos.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

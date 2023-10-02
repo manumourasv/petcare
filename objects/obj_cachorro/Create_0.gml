@@ -1,5 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+event_inherited();
 
 randomize();
 
@@ -21,32 +22,6 @@ alarm[0] = 1;
 
 dist_aggro = 50;
 dist_desaggro = 100;
-
-
-
-/*
-//variaveis para controlar movimentacao
-direita = -1;
-cima = -1; 
-esquerda = -1;
-baixo = -1;
-
-//variavel de estado
-parado = true;
-sentar = 240;
-
-//variaveis para velocidade
-hveloc = 0;
-vveloc = 0;
-
-veloc = 3;
-
-direcao = 270;
-
-estado = scr_cachorro_andando;
-
-//colisao = veloc + 2;*/
-
 
 
 

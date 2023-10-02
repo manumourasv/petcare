@@ -77,24 +77,6 @@ function scr_cachorro_andando(){
 	
 		scr_cachorro_colisao();
 		
-		/*switch(_dir){
-		
-		var _dir = floor((point_direction(x, y, dest_x, dest_y)+45)/90);
-			case 1:
-				sprite_index = spr_cachorro_andando_esquerda;
-			break;
-			case 2:
-				sprite_index = spr_cachorro_andando_direita;
-			break;
-			case 3:
-				sprite_index = spr_cachorro_andando_esquerda;
-			break;
-			case 4:
-				sprite_index = spr_cachorro_andando_direita;
-			break;
-			default:
-			break;
-		}*/
 	}else{
 		x = dest_x;
 		y = dest_y;
