@@ -19,6 +19,7 @@ dest_y = 0;
 
 
 alarm[0] = 1;
+alarm[1] = 1;
 
 dist_aggro = 50;
 dist_desaggro = 100;

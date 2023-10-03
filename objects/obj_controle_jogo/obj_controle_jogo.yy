@@ -1,22 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_controle_jogo",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_personagens",
-    "path": "folders/Objetos/obj_personagens.yy",
+    "name": "obj_controladores",
+    "path": "folders/Objetos/obj_controladores.yy",
   },
-  "parentObjectId": {
-    "name": "par_objetos",
-    "path": "objects/par_objetos/par_objetos.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -32,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_player_parado_baixo",
-    "path": "sprites/spr_player_parado_baixo/spr_player_parado_baixo.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

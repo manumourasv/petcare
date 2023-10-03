@@ -1,17 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_racao",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_personagens",
-    "path": "folders/Objetos/obj_personagens.yy",
+    "name": "obj_itens_pet",
+    "path": "folders/Objetos/obj_itens_pet.yy",
   },
   "parentObjectId": {
     "name": "par_objetos",
@@ -33,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_parado_baixo",
-    "path": "sprites/spr_player_parado_baixo/spr_player_parado_baixo.yy",
+    "name": "spr_racao",
+    "path": "sprites/spr_racao/spr_racao.yy",
   },
   "spriteMaskId": null,
   "visible": true,

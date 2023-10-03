@@ -20,3 +20,5 @@ estado = scr_personagem_andando;
 
 //colisao = veloc + 2;
 
+audio_play_sound(snd_musica_fundo, 10, true);
+

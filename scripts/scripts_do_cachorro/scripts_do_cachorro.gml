@@ -102,6 +102,7 @@ function scr_cachorro_parado(){
 		sprite_index = spr_cachorro_parado_direita;
 	}
 	
+	
 }
 
 //SENTADO
@@ -110,7 +111,6 @@ function scr_cachorro_sentado(){
 	
 	sprite_index = spr_cachorro_sentado;
 		
-	//inserir audio cachorro arfando
 	
 }
 
