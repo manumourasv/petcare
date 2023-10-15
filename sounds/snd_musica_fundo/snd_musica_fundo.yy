@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "snd_musica_fundo.ogg",
   "type": 0,
-  "volume": 0.33,
+  "volume": 0.19,
 }

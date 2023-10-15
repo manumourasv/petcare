@@ -137,6 +137,5 @@ function scr_cachorro_seguindo(){
 		sprite_index = spr_cachorro_andando_direita;
 	}
 	
-
 }
 

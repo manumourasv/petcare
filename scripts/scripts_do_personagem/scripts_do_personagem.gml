@@ -6,6 +6,7 @@ function scr_personagem_andando(){
 	cima = keyboard_check(ord("W"));
 	esquerda = keyboard_check(ord("A"));
 	baixo = keyboard_check(ord("S"));
+	
 
 
 	//COLISÃO

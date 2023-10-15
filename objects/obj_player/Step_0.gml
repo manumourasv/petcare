@@ -2,8 +2,9 @@
 
 //depth = -y; //variavel que proporciona profundidade para o objeto, fazendo ele obedecer a camera
 
-script_execute(estado);
-
+if(global.inicio == false){
+	script_execute(estado);
+}
 
 
 
