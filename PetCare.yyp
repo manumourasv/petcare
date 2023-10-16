@@ -82,6 +82,7 @@
     {"id":{"name":"obj_parede_default","path":"objects/obj_parede_default/obj_parede_default.yy",},},
     {"id":{"name":"spr_canto_superior_esquerdo","path":"sprites/spr_canto_superior_esquerdo/spr_canto_superior_esquerdo.yy",},},
     {"id":{"name":"par_objetos","path":"objects/par_objetos/par_objetos.yy",},},
+    {"id":{"name":"spr_base_gui","path":"sprites/spr_base_gui/spr_base_gui.yy",},},
     {"id":{"name":"obj_colisao","path":"objects/obj_colisao/obj_colisao.yy",},},
     {"id":{"name":"spr_cachorro_sentado","path":"sprites/spr_cachorro_sentado/spr_cachorro_sentado.yy",},},
     {"id":{"name":"spr_tile_chao","path":"sprites/spr_tile_chao/spr_tile_chao.yy",},},

@@ -60,6 +60,7 @@
     {"name":"obj_parede_default","order":6,"path":"objects/obj_parede_default/obj_parede_default.yy",},
     {"name":"spr_canto_superior_esquerdo","order":5,"path":"sprites/spr_canto_superior_esquerdo/spr_canto_superior_esquerdo.yy",},
     {"name":"par_objetos","order":1,"path":"objects/par_objetos/par_objetos.yy",},
+    {"name":"spr_base_gui","order":3,"path":"sprites/spr_base_gui/spr_base_gui.yy",},
     {"name":"spr_cachorro_sentado","order":5,"path":"sprites/spr_cachorro_sentado/spr_cachorro_sentado.yy",},
     {"name":"spr_tile_chao","order":3,"path":"sprites/spr_tile_chao/spr_tile_chao.yy",},
     {"name":"spr_canto_baixo_esquerdo","order":1,"path":"sprites/spr_canto_baixo_esquerdo/spr_canto_baixo_esquerdo.yy",},

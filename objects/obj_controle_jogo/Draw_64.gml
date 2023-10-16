@@ -3,8 +3,9 @@
 
 //draw_set_color(c_red);
 //draw_text(30, 30, "Felicidade: " + string(global.felicidade));
+//draw_set_color(-1);
 
-draw_set_color(-1);
+draw_sprite(spr_base_gui, 0, 35, 40);
 
 //DESENHO DA PONTUACAO
 switch(global.felicidade){
