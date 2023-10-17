@@ -9,8 +9,14 @@ if(keyboard_check_pressed(ord("E"))){
 	if(index >= array_length(texto)){
 		global.inicio = false;
 		instance_destroy(obj_dialogo);
+		
+		if (global.vitoria == true){
+			room_restart();
+		}
 	}
 }
+
+
 
 
 

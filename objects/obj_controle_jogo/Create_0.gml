@@ -2,6 +2,7 @@
 // Você pode escrever seu código neste editor
 
 global.inicio = true;
+global.vitoria = false;
 
 
 //VARIAVEIS DO CACHORRO

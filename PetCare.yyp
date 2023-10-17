@@ -45,7 +45,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"snd_cachorro_latindo","path":"sounds/snd_cachorro_latindo/snd_cachorro_latindo.yy",},},
@@ -60,6 +60,7 @@
     {"id":{"name":"spr_cachorro_andando_direita","path":"sprites/spr_cachorro_andando_direita/spr_cachorro_andando_direita.yy",},},
     {"id":{"name":"snd_item_correto","path":"sounds/snd_item_correto/snd_item_correto.yy",},},
     {"id":{"name":"spr_brinquedo","path":"sprites/spr_brinquedo/spr_brinquedo.yy",},},
+    {"id":{"name":"spr_abertura","path":"sprites/spr_abertura/spr_abertura.yy",},},
     {"id":{"name":"scripts_do_cachorro","path":"scripts/scripts_do_cachorro/scripts_do_cachorro.yy",},},
     {"id":{"name":"spr_canto_superior_direito","path":"sprites/spr_canto_superior_direito/spr_canto_superior_direito.yy",},},
     {"id":{"name":"snd_cachorro_arfando","path":"sounds/snd_cachorro_arfando/snd_cachorro_arfando.yy",},},
@@ -69,6 +70,7 @@
     {"id":{"name":"ft_dialogo","path":"fonts/ft_dialogo/ft_dialogo.yy",},},
     {"id":{"name":"spr_coracao_vazio","path":"sprites/spr_coracao_vazio/spr_coracao_vazio.yy",},},
     {"id":{"name":"obj_mesa_comprida","path":"objects/obj_mesa_comprida/obj_mesa_comprida.yy",},},
+    {"id":{"name":"Abertura","path":"rooms/Abertura/Abertura.yy",},},
     {"id":{"name":"obj_canto_superior_direito","path":"objects/obj_canto_superior_direito/obj_canto_superior_direito.yy",},},
     {"id":{"name":"spr_player_andando_direita","path":"sprites/spr_player_andando_direita/spr_player_andando_direita.yy",},},
     {"id":{"name":"obj_controle_profundidade","path":"objects/obj_controle_profundidade/obj_controle_profundidade.yy",},},
@@ -122,6 +124,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Abertura","path":"rooms/Abertura/Abertura.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType": null,

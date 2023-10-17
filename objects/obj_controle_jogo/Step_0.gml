@@ -16,7 +16,11 @@ if(global.felicidade >= 3){
 	for (var i = 0; i < array_length(texto_vitoria); i++) {
 		array_push(dialogo.texto, texto_vitoria[i]);
 	}
+	
+	global.vitoria = true;
 }
+
+
 
 
 
