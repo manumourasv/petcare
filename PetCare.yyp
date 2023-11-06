@@ -20,6 +20,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fontes","folderPath":"folders/Fontes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objetos","folderPath":"folders/Objetos.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_abertura_logo","folderPath":"folders/Objetos/obj_abertura_logo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_controladores","folderPath":"folders/Objetos/obj_controladores.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_dialogos","folderPath":"folders/Objetos/obj_dialogos.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obj_itens_pet","folderPath":"folders/Objetos/obj_itens_pet.yy",},
@@ -45,7 +46,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"snd_cachorro_latindo","path":"sounds/snd_cachorro_latindo/snd_cachorro_latindo.yy",},},
@@ -67,6 +68,7 @@
     {"id":{"name":"spr_player_parado_direita","path":"sprites/spr_player_parado_direita/spr_player_parado_direita.yy",},},
     {"id":{"name":"snd_cachorro_triste","path":"sounds/snd_cachorro_triste/snd_cachorro_triste.yy",},},
     {"id":{"name":"spr_cachorro_andando_esquerda","path":"sprites/spr_cachorro_andando_esquerda/spr_cachorro_andando_esquerda.yy",},},
+    {"id":{"name":"obj_abertura","path":"objects/obj_abertura/obj_abertura.yy",},},
     {"id":{"name":"ft_dialogo","path":"fonts/ft_dialogo/ft_dialogo.yy",},},
     {"id":{"name":"spr_coracao_vazio","path":"sprites/spr_coracao_vazio/spr_coracao_vazio.yy",},},
     {"id":{"name":"obj_mesa_comprida","path":"objects/obj_mesa_comprida/obj_mesa_comprida.yy",},},
@@ -124,8 +126,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Abertura","path":"rooms/Abertura/Abertura.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Abertura","path":"rooms/Abertura/Abertura.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

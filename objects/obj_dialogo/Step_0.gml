@@ -11,7 +11,8 @@ if(keyboard_check_pressed(ord("E"))){
 		instance_destroy(obj_dialogo);
 		
 		if (global.vitoria == true){
-			room_restart();
+			game_restart();
+			//room_restart();
 		}
 	}
 }
