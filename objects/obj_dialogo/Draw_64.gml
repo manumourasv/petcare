@@ -30,7 +30,7 @@ draw_text((gui_largura/2) - (string_width(texto[index]))/2, yy + 20, texto_atual
 //CONFERINDO INICIO
 if(global.inicio == true){
 	draw_set_font(ft_dialogo_tutorial);
-	draw_text(gui_largura - 230, gui_altura - 50, "Pressione 'E'");
+	draw_text(gui_largura - 230, gui_altura - 70, "Pressione 'E'");
 }
 
 
