@@ -19,7 +19,7 @@ draw_set_color(c_white);
 var texto_atual = string_copy(texto[index], 1, index_letra);
 
 if(index_letra < string_width(texto[index])){
-	index_letra = index_letra + 0.5;
+	index_letra = index_letra + 0.7;
 }
 draw_text((gui_largura/2) - (string_width(texto[index]))/2, yy + 20, texto_atual);
 
